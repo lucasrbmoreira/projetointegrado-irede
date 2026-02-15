@@ -83,3 +83,17 @@ docker build -t minha-app-python .
 docker run -d -p 8080:8080 --network rede-projeto -v meu_volume:/app/dados minha-app-python
 ```
 
+---
+
+## 🔗 5. Referências e Acesso ao Projeto
+
+Para fins de auditoria técnica e validação acadêmica, todos os arquivos de configuração (`Dockerfile`, `app.py`, `requirements.txt`) e os fluxos de automação (`.github/workflows`) estão disponíveis no repositório público abaixo:
+
+**Link do Repositório:**
+
+- https://github.com/lucasrbmoreira/projetointegrado-irede.git
+
+**Nota:**
+
+O repositório contém o histórico de commits que comprovam a evolução do projeto, desde a containerização local até a simulação de deploy automatizado.
+
