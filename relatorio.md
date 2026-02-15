@@ -223,6 +223,14 @@ A gravação de logs de acesso permite auditoria mínima e visibilidade operacio
 - Endpoint principal respondendo com status de serviço.
 - Escrita de log de acesso validada no caminho persistente.
 
+#### 7.1.1 Evidência visual da execução
+
+**Print da aplicação em execução local:**
+
+![Evidência de execução da aplicação local](evidencias/evidencia.png)
+
+*Figura 1 — Página inicial da aplicação em execução, comprovando funcionamento do serviço e registro de persistência.*
+
 ### 7.2 Evidências de versionamento
 
 - Repositório público atualizado com commits sequenciais.
