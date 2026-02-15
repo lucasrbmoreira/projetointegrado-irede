@@ -1,0 +1,17 @@
+name: Simulação de Deploy
+on:
+  push:
+    branches: [ main ] # Toda vez que você enviar código, ele inicia
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v3
+
+      - name: Simular Build do Docker
+        run: docker build -t minha-app-python .
+
+      - name: Simular Deploy na Nuvem (PaaS)
+        run: echo "O container foi enviado e está rodando de forma elástica na nuvem!"
